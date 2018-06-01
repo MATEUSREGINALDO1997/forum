@@ -7,7 +7,7 @@ return [
         'edit'    => 'Editar',
         'yes'     => 'Sim',
         'no'      => 'Não',
-        'minutes' => '1 minute| :count minutes',
+        'minutes' => '1 minuto| :count minutos',
     ],
 
     'discussion' => [
