@@ -1,5 +1,8 @@
-var chatter_tinymce_toolbar = $('#chatter_tinymce_toolbar').val();
-var chatter_tinymce_plugins = $('#chatter_tinymce_plugins').val();
+//var chatter_tinymce_toolbar = $('#').val();
+var chatter_tinymce_toolbar = document.getElementById("chatter_tinymce_toolbar");
+
+var chatter_tinymce_plugins = document.getElementById("chatter_tinymce_plugins");
+
 
 // Initiate the tinymce editor on any textarea with a class of richText
 tinymce.init({
