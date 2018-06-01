@@ -2,35 +2,36 @@
 
 return [
     'words' => [
-        'cancel'  => 'Cancel',
-        'delete'  => 'Delete',
-        'edit'    => 'Edit',
-        'yes'     => 'Yes',
-        'no'      => 'No',
+        'cancel'  => 'Cancelar',
+        'delete'  => 'Deletar',
+        'edit'    => 'Editar',
+        'yes'     => 'Sim',
+        'no'      => 'Não',
         'minutes' => '1 minute| :count minutes',
     ],
 
     'discussion' => [
-        'new'          => 'New '.trans('chatter::intro.titles.discussion'),
-        'all'          => 'All '.trans('chatter::intro.titles.discussion'),
-        'create'       => 'Create '.trans('chatter::intro.titles.discussion'),
-        'posted_by'    => 'Posted by',
-        'head_details' => 'Posted in Category',
+        'new'          => 'Nova '.trans('chatter::intro.titles.discussion'),
+        'all'          => 'Ver Tudo ',
+//        .trans('chatter::intro.titles.discussions'),
+        'create'       => 'Criar '.trans('chatter::intro.titles.discussion'),
+        'posted_by'    => 'Postado por',
+        'head_details' => 'Postado na Categoria',
 
     ],
     'response' => [
-        'confirm'     => 'Are you sure you want to delete this response?',
-        'yes_confirm' => 'Yes Delete It',
-        'no_confirm'  => 'No Thanks',
-        'submit'      => 'Submit response',
-        'update'      => 'Update Response',
+        'confirm'     => 'Tem certeza que deseja deletar esta resposta?',
+        'yes_confirm' => 'Sim, deletar',
+        'no_confirm'  => 'Cancelar',
+        'submit'      => 'Enviar Resposta',
+        'update'      => 'Atualizar Resposta',
     ],
 
     'editor' => [
-        'title'               => 'Title of '.trans('chatter::intro.titles.discussion'),
-        'select'              => 'Select a Category',
-        'tinymce_placeholder' => 'Type Your '.trans('chatter::intro.titles.discussion').' Here...',
-        'select_color_text'   => 'Select a Color for this '.trans('chatter::intro.titles.discussion').' (optional)',
+        'title'               => 'Título da '.trans('chatter::intro.titles.discussion'),
+        'select'              => 'Selecione uma categoria*',
+        'tinymce_placeholder' => 'Digite sua '.trans('chatter::intro.titles.discussion').' aqui...',
+        'select_color_text'   => 'Selecione a Cor para esta '.trans('chatter::intro.titles.discussion').' (opcional)',
     ],
 
     'email' => [

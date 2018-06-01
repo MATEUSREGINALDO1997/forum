@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/forums'; //redireciona para o forum após o login
 
     /**
      * Create a new controller instance.
