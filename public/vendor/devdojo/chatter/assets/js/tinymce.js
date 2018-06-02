@@ -10,7 +10,7 @@ tinymce.init({
 	skin: 'chatter',
 	plugins: chatter_tinymce_plugins,
 	toolbar: chatter_tinymce_toolbar,
-	menubar: false,
+	menubar: true,
 	statusbar: false,
 	height : '220',
 	content_css : '/vendor/devdojo/chatter/assets/css/chatter.css',
